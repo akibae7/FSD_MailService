@@ -1,0 +1,32 @@
+.custom-navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .ml-2 {
+    margin-left: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+
+@media (max-width: 768px) {
+.nav-link {
+margin-right: 0;
+margin-bottom: 10px;
+}
+}
